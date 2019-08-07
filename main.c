@@ -322,9 +322,9 @@ static void handlerEngine()
 
 void handlerTemp()
 {
-	int i = 0;
+	int i = 1;
 
-	for(i=0;i<5;i++){};
+	for(i=0;i<6;i++){};
 }
 
 /*
