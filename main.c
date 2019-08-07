@@ -342,6 +342,8 @@ int main(void)
     {
     	handlerEngine();
 
+    	handlerTemp();
+
        	delay_ms(100);
 
     }
