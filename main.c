@@ -327,6 +327,13 @@ void handlerTemp()
 	for(i=0;i<6;i++){};
 }
 
+void handlerTemp2()
+{
+	int i = 10;
+
+	for(i=0;i<100;i++){};
+}
+
 /*
  *
  *  brief: Funkcja g³ówna
