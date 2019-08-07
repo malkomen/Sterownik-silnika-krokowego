@@ -344,6 +344,8 @@ int main(void)
 
     	handlerTemp();
 
+    	handlerTemp2();
+
        	delay_ms(100);
 
     }
