@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103C6 -DSTM32F10X_LD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\Sterownik_silnika_krok_zwiercialo\stm_lib\inc -I..\..\..\workspace\Sterownik_silnika_krok_zwiercialo\cmsis -I..\..\..\workspace -I..\..\..\workspace\Sterownik_silnika_krok_zwiercialo\stm_lib -I..\..\..\workspace\Sterownik_silnika_krok_zwiercialo\cmsis_boot -I..\..\..\workspace\Sterownik_silnika_krok_zwiercialo">
+      <target file="stm32f10x_rcc.o" lastModified="158ba6fcf2c">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="158ba44c074"/>
+      </target>
+      <target file="startup_stm32f10x_ld.o" lastModified="158ba6fcac5">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_ld.c" lastModified="158ba44c0c9"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="158ba6fcbf6">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="158ba44c138"/>
+      </target>
+      <target file="stm32f10x_adc.o" lastModified="158ba6fcfe0">
+         <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="158ba45a2de"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="158ba6fd095">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="158ba44f660"/>
+      </target>
+      <target file="main.o" lastModified="16c6bdcb4cd">
+         <source file="..\..\..\main.c" lastModified="16c6bdcb328"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="158ba6fccc0">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="158ba44cf64"/>
+      </target>
+   </processor>
+</history>

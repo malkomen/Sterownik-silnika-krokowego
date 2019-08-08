@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Sterownik_silnika_krok_zwiercialo.map -O0 --gc-sections -LC:\CooCox\CooCox\CoIDE\configuration\ProgramData\Sterownik_silnika_krok_zwiercialo -TC:\CooCox\CooCox\CoIDE\configuration\ProgramData\Sterownik_silnika_krok_zwiercialo/arm-gcc-link.ld -g">
+      <target file="Sterownik_silnika_krok_zwiercialo.elf" lastModified="16c6bdcb687">
+         <source file="..\obj\startup_stm32f10x_ld.o" lastModified="158ba6fcac5"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="158ba6fcbf6"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="158ba6fccc0"/>
+         <source file="..\obj\main.o" lastModified="16c6bdcb4cd"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="158ba6fcf2c"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="158ba6fcfe0"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="158ba6fd095"/>
+      </target>
+   </processor>
+</history>
