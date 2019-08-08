@@ -334,6 +334,15 @@ void handlerTemp2()
 	for(i=0;i<100;i++){};
 }
 
+void handlerTemp3()
+{
+	int i = 10;
+
+	for(i=0;i<100;i++){};
+}
+
+
+
 /*
  *
  *  brief: Funkcja g³ówna
@@ -352,6 +361,8 @@ int main(void)
     	handlerTemp();
 
     	handlerTemp2();
+
+    	handlerTemp3();
 
        	delay_ms(100);
 
